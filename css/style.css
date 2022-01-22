@@ -671,6 +671,12 @@ section {
   }
 }
 
+@media (max-width: 644px) {
+  .about .content .btn {
+    margin-left: 15rem;
+  }
+}
+
 @media (max-width: 450px) {
   html {
     font-size: 50%;
