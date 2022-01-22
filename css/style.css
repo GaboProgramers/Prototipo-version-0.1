@@ -672,8 +672,21 @@ section {
 }
 
 @media (max-width: 644px) {
+
   .about .content .btn {
     margin-left: 13rem;
+  }
+
+  .header .logo img {
+    margin-left: -1em;
+    margin-top: -6rem;
+    width: 19rem;
+    height: 15rem;
+  }
+
+  .reviews .box-container .box p {
+    font-size: 2rem;
+    color: red;
   }
 }
 
