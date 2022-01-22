@@ -678,15 +678,15 @@ section {
   }
 
   .header .logo img {
-    margin-left: -1em;
+    margin-left: -4em;
     margin-top: -6rem;
     width: 19rem;
     height: 15rem;
   }
 
   .reviews .box-container .box p {
-    font-size: 2rem;
-    color: red;
+    font-size: 1.8rem;
+    color: #aaa
   }
 }
 
