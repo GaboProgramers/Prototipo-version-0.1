@@ -37,7 +37,7 @@ $border:.2rem solid rgba(255,255,255,.3);
 html{
    font-size: 62.5%;
    scroll-behavior: smooth;
-   scroll-padding-top: 8rem;
+   scroll-padding-top: 1rem;
    overflow-x: hidden;
 
    &::-webkit-scrollbar{
