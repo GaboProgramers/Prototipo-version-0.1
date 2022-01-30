@@ -276,6 +276,7 @@ section {
 
 .menu .box-container .box img {
   height: 25rem;
+  border-radius: 3rem;
 }
 
 .menu .box-container .box .img-modificacion {
