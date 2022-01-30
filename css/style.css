@@ -278,6 +278,10 @@ section {
   height: 25rem;
 }
 
+.menu .box-container .box .img-modificacion {
+  width: 30rem;
+}
+
 .menu .box-container .box .content {
   padding: 1rem 0;
 }
