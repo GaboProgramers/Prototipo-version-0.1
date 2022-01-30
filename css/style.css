@@ -660,8 +660,8 @@ section {
 
 .go-top-container {
   position: fixed;
-  bottom: .1rem;
-  right: .1rem;
+  bottom: 4rem;
+  right: 4rem;
   width: 6.6rem;
   height: 6.6rem;
   z-index: -1;
@@ -803,8 +803,8 @@ section {
   }
 
   .go-top-container {
-    bottom: .5rem;
-    right: .5rem;
+    bottom: 2rem;
+    right: 2rem;
   }
 }
 
