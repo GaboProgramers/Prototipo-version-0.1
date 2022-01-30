@@ -660,8 +660,8 @@ section {
 
 .go-top-container {
   position: fixed;
-  bottom: 4rem;
-  right: 4rem;
+  bottom: .1rem;
+  right: .1rem;
   width: 6.6rem;
   height: 6.6rem;
   z-index: -1;
@@ -679,6 +679,10 @@ section {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: -1;
+}
+
+.go-top-container:focus {
+  outline: none;
 }
 
 .go-top-button i {
@@ -796,6 +800,11 @@ section {
   .reviews .box-container .box p {
     font-size: 1.8rem;
     color: #aaa
+  }
+
+  .go-top-container {
+    bottom: .5rem;
+    right: .5rem;
   }
 }
 
