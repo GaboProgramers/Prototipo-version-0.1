@@ -17,6 +17,10 @@
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
 
+   <!-- Libreria Para El Boton De Subir -->
+
+   <script src="http://code.jquery.com/jquery-latest.js"></script>
+
 </head>
 
 <body>
@@ -118,8 +122,16 @@
                   <i class="fas fa-star-half-alt"></i>
                </div>
                <h3>Venta De Cachorros</h3>
+               <button id="comprado" onclick="mostrarResultado();"
+                  style="width: 20px; border: none; background: transparent;"><i
+                     class="fas fa-plus icono-nuevo"></i></button>
+
+               <p id="resultado">Añadido Al Carrito
+                  <button id="ocultarP" onclick="ocultarP();"
+                     style="width: 20px; border: none; background: transparent;"><i class="fas fa-minus"></i></button>
+               </p>
                <div class="price">$29.99</div>
-               <a href="https://www.youtube.com/watch?v=JL7Wo-ASah4" class="btn">Añadir al Carrito</a>
+               <a href="#" class="btn">Añadir al Carrito</a>
             </div>
          </div>
 
@@ -220,7 +232,8 @@
       <div class="content" data-aos="fade-left" data-aos-delay="300">
          <h3 class="title">Mas Conocimientos Sobre Paper-Company</h3>
          <p>Tenemos el interes, el conocimiento y las ganas de un emprendimiento efectivo para el desarrollo de menus
-            Digitales, desarrollo web para tu negocio o empresa, mejora enormemente tus servicios y cuida a tus clientes..
+            Digitales, desarrollo web para tu negocio o empresa, mejora enormemente tus servicios y cuida a tus
+            clientes..
          </p>
          <div class="icons">
             <h3> <i class="fas fa-check"></i> Mejor Precios </h3>
@@ -251,8 +264,7 @@
          <div class="box" data-aos="fade-up" data-aos-delay="150">
             <img src="images/pic-1.png" alt="">
             <h3>john deo</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis qui accusamus autem! Veniam exercitationem
-               adipisci in excepturi labore magni voluptatibus?</p>
+            <p>Muy buena calidad y servicio eficiente..!</p>
             <div class="stars">
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
@@ -265,8 +277,7 @@
          <div class="box" data-aos="fade-up" data-aos-delay="300">
             <img src="images/pic-2.png" alt="">
             <h3>john deo</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis qui accusamus autem! Veniam exercitationem
-               adipisci in excepturi labore magni voluptatibus?</p>
+            <p>Economia y Calidad en un solo lugar..!</p>
             <div class="stars">
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
@@ -279,8 +290,7 @@
          <div class="box" data-aos="fade-up" data-aos-delay="450">
             <img src="images/pic-3.png" alt="">
             <h3>john deo</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis qui accusamus autem! Veniam exercitationem
-               adipisci in excepturi labore magni voluptatibus?</p>
+            <p>Servicios de Calidad y Muy Economicos..</p>
             <div class="stars">
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
@@ -431,6 +441,8 @@
 
       <p class="credit"> Creado Por <span>Paper-Company</span> | Todos Los Derechos Reservados! </p>
 
+      <span><i class="fas fa-angle-double-up ir-arriba"></i></span>
+
    </section>
 
    <!-- footer section ends -->
@@ -451,6 +463,7 @@
 
 
    <!-- custom js file link      -->
+
    <script src="js/script.js"></script>
 
    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>

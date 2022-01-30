@@ -287,6 +287,29 @@ section {
   padding: 1rem 0;
 }
 
+.menu .box-container .box .content p {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 100;
+  display: none;
+}
+
+.menu .box-container .box .content p i {
+  font-size: 2rem;
+  color: #fff;
+  padding: 0;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.menu .box-container .box .content .icono-nuevo {
+  font-size: 2rem;
+  color: #fff;
+  padding: 0;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
 .menu .box-container .box .content .stars {
   margin-bottom: 2rem;
 }
@@ -411,6 +434,7 @@ section {
 
 .reviews .box-container .box p {
   font-size: 1.4rem;
+  font-weight: 1000;
   line-height: 2;
   color: #aaa;
   padding: 1rem 0;
@@ -619,6 +643,18 @@ section {
 
 .footer .credit span {
   color: #eacf4f;
+}
+
+.footer .ir-arriba {
+    display: none;
+    padding: 15px 15px;
+    background: transparent;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
 }
 
 @media (max-width: 1200px) {
