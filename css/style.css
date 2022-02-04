@@ -644,20 +644,6 @@ section {
 .footer .credit span {
   color: #eacf4f;
 }
-
-/*.footer .ir-arriba {
-    display: none;
-    padding: 15px 15px;
-    background: transparent;
-    font-size: 30px;
-    color: #fff;
-    cursor: pointer;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    outline: none;
-}*/
-
 .go-top-container {
   position: fixed;
   bottom: 4rem;

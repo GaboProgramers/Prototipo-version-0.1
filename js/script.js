@@ -35,26 +35,6 @@ function ocultarP() {
    document.getElementById('resultado').style.display = 'none'
 }
 
-//funcion para Regresar Al inicio de la pagina//
-/*
-$(document).ready(function(){
-
-	$('.ir-arriba').click(function(){
-		$('body, html').animate({
-			scrollTop: '0px'
-		}, 300);
-	});
-
-	$(window).scroll(function(){
-		if( $(this).scrollTop() > 0 ){
-			$('.ir-arriba').slideDown(300);
-		} else {
-			$('.ir-arriba').slideUp(300);
-		}
-	});
-
-});*/
-
 window.onscroll = function(){
    if(document.documentElement.scrollTop > 50) {
       document.querySelector('.go-top-container')
