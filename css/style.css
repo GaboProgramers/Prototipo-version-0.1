@@ -16,7 +16,7 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
-  scroll-padding-top: 8rem;
+  scroll-padding-top: 1rem;
   overflow-x: hidden;
 }
 
@@ -51,8 +51,9 @@ section {
 
 .heading h3 {
   font-size: 3rem;
+  font-weight: 600;
   text-transform: uppercase;
-  color: #fff;
+  color: #26a526;
   margin-top: 1rem;
 }
 
@@ -60,16 +61,20 @@ section {
   display: inline-block;
   margin-top: 1rem;
   cursor: pointer;
-  color: #fff;
-  border: 0.2rem solid rgba(255, 255, 255, 0.3);
+  color: rgb(0,204,34);
+  box-shadow: 1px 2px 1px 2px rgba(1, 1, 1, 0.9);
+  border: 0.1rem solid rgba(1, 1, 1, 0.3);
+  border-radius: 10px;
   background: no-repeat;
   font-size: 1.7rem;
+  font-weight: 600;
   padding: 1rem 3rem;
 }
 
 .btn:hover {
-  color: #000;
-  background: #fff;
+  font-weight: 600;
+  color: rgb(0,153,0);
+  background: #000;
 }
 
 .header {
@@ -99,7 +104,7 @@ section {
 }
 
 .header .icons:hover {
-  color: #eacf4f;
+  color: rgb(0,153,0);
 }
 
 .header #menu-btn {
@@ -107,15 +112,16 @@ section {
 }
 
 .header .navbar a {
-  color: #fff;
+  color: rgb(0,204,34);
+  font-weight: 800;
   font-size: 2rem;
-  margin: 0 2rem;
+  margin: 0 4.5rem;
 }
 
 .header .navbar a:hover {
   text-decoration: underline;
   text-underline-offset: 1rem;
-  color: #eacf4f;
+  color: rgb(0,153,0);
 }
 
 .header .navbar .space {
@@ -132,7 +138,10 @@ section {
 }
 
 .header .logo img {
-  width: 15rem;
+  margin-left: 3rem;
+  margin-top: -6rem;
+  width: 19rem;
+  height: 15rem;
 }
 
 .header .search-form {
@@ -174,7 +183,6 @@ section {
 
 .home {
   margin-top: 7rem;
-  background: url(../images/home-bg.png) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -191,16 +199,24 @@ section {
 
 .home .content h3 {
   font-size: 4rem;
+  font-weight: 800;
   text-transform: uppercase;
-  color: #fff;
+  color: #009900;
 }
 
 .home .content p {
   font-size: 1.7rem;
+  font-weight: 600;
   line-height: 2;
   color: #aaa;
   padding: 2rem 0;
 }
+
+/*.home .content .btn {
+  border-radius: 10px;
+  font-weight: 600;
+
+}*/
 
 .service {
   display: -ms-grid;
@@ -220,8 +236,8 @@ section {
   width: 7rem;
   line-height: 7rem;
   font-size: 2.5rem;
-  color: #000;
-  background: #eacf4f;
+  color: #fff;
+  background: #000000;
   margin-bottom: 1rem;
   border-radius: 50%;
 }
@@ -229,12 +245,14 @@ section {
 .service .box h3 {
   padding: 1rem 0;
   font-size: 2rem;
+  font-weight: 600;
   text-transform: uppercase;
-  color: #fff;
+  color: #26a526;
 }
 
 .service .box p {
   font-size: 1.5rem;
+  font-weight: 500;
   line-height: 2;
   color: #aaa;
 }
@@ -258,10 +276,38 @@ section {
 
 .menu .box-container .box img {
   height: 25rem;
+  border-radius: 3rem;
+}
+
+.menu .box-container .box .img-modificacion {
+  width: 30rem;
 }
 
 .menu .box-container .box .content {
   padding: 1rem 0;
+}
+
+.menu .box-container .box .content p {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 100;
+  display: none;
+}
+
+.menu .box-container .box .content p i {
+  font-size: 2rem;
+  color: #fff;
+  padding: 0;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.menu .box-container .box .content .icono-nuevo {
+  font-size: 2rem;
+  color: #fff;
+  padding: 0;
+  margin: 10px 0;
+  cursor: pointer;
 }
 
 .menu .box-container .box .content .stars {
@@ -270,19 +316,21 @@ section {
 
 .menu .box-container .box .content .stars i {
   font-size: 1.7rem;
-  color: #eacf4f;
+  color: #26a526;
 }
 
 .menu .box-container .box .content h3 {
   font-size: 2rem;
+  font-weight: 500;
   text-transform: uppercase;
-  color: #fff;
+  color: #26a526;
 }
 
 .menu .box-container .box .content .price {
   font-size: 2rem;
+  font-weight: 600;
   line-height: 2;
-  color: #aaa;
+  color: #fff;
 }
 
 .about {
@@ -315,14 +363,16 @@ section {
 
 .about .content .title {
   font-size: 2.5rem;
+  font-weight: 600;
   text-transform: uppercase;
-  color: #fff;
+  color: #26a526;
 }
 
 .about .content p {
   font-size: 1.5rem;
+  font-weight: 500;
   line-height: 2;
-  color: #aaa;
+  color: #fff;
   padding: 2rem 0;
 }
 
@@ -343,12 +393,17 @@ section {
           flex: 1 1 16rem;
   font-size: 1.5rem;
   text-transform: uppercase;
-  color: #fff;
+  color: #26a526;
 }
 
 .about .content .icons h3 i {
   padding-right: .5rem;
   color: #eacf4f;
+}
+
+.about .content .btn {
+  margin-top: 3rem;
+  margin-left: 22rem;
 }
 
 .reviews .box-container {
@@ -379,6 +434,7 @@ section {
 
 .reviews .box-container .box p {
   font-size: 1.4rem;
+  font-weight: 1000;
   line-height: 2;
   color: #aaa;
   padding: 1rem 0;
@@ -588,6 +644,76 @@ section {
 .footer .credit span {
   color: #eacf4f;
 }
+.go-top-container {
+  position: fixed;
+  bottom: 4rem;
+  right: 4rem;
+  width: 6.6rem;
+  height: 6.6rem;
+  z-index: -1;
+}
+
+.go-top-button {
+  width: 0rem;
+  height: 0rem;
+  background: transparent;
+  border-radius: 60%;
+  font-size: 25px;
+  cursor: pointer;
+  transition: .2s;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.go-top-container:focus {
+  outline: none;
+}
+
+.go-top-button i {
+  position: absolute;
+  font: 1.7rem;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  color: #fff;
+  transition: .2s;
+}
+
+.show {
+  z-index: 10;
+}
+
+.show .go-top-button {
+  animation: popup .3s ease-in-out;
+  width: 6.6rem;
+  height: 6.6rem;
+  z-index: 11;
+}
+
+.show i {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* animacion start */
+
+  @keyframes popup {
+    0% {
+      width: 0rem;
+      height: 0rem;
+    }
+    50% {
+      width: 8rem;
+      height: 8rem;
+    }
+    100% {
+      width: 6.6rem;
+      height: 6.6rem;
+    }
+  }
+
+/* animacion end */
 
 @media (max-width: 1200px) {
   .header {
@@ -641,6 +767,30 @@ section {
 @media (max-width: 768px) {
   .home .content h3 {
     font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 644px) {
+
+  .about .content .btn {
+    margin-left: 13rem;
+  }
+
+  .header .logo img {
+    margin-left: -4em;
+    margin-top: -6rem;
+    width: 19rem;
+    height: 15rem;
+  }
+
+  .reviews .box-container .box p {
+    font-size: 1.8rem;
+    color: #aaa
+  }
+
+  .go-top-container {
+    bottom: 2rem;
+    right: 2rem;
   }
 }
 
