@@ -1,3 +1,9 @@
+:root{
+  --Color-Letters: #ccac00;
+  --Negro: #000;
+  --blanco:#fff;
+  --Color-Letters-light: #ffd700;
+}
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600&display=swap");
 * {
   font-family: 'Raleway', sans-serif;
@@ -34,7 +40,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
-  background: url(../images/background.jpg);
+  background: url(../images/fondo3.jpg);
   background-attachment: fixed;
   background-position: center;
   overflow-x: hidden;
@@ -55,17 +61,22 @@ section {
   text-transform: uppercase;
   color: #26a526;
   margin-top: 1rem;
+  color: var(--Color-Letters);
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 40px;
 }
 
 .btn {
   display: inline-block;
   margin-top: 1rem;
+
   cursor: pointer;
   color: rgb(0,204,34);
   box-shadow: 1px 2px 1px 2px rgba(1, 1, 1, 0.9);
   border: 0.1rem solid rgba(1, 1, 1, 0.3);
   border-radius: 10px;
   background: no-repeat;
+  background-color: rgba(0, 0, 0, .5);
   font-size: 1.7rem;
   font-weight: 600;
   padding: 1rem 3rem;
@@ -83,7 +94,7 @@ section {
   left: 0;
   right: 0;
   z-index: 1000;
-  background: #000;
+  background: rgba(0, 0, 0, .7);
   padding: 3rem 9%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -100,7 +111,7 @@ section {
 .header .icons {
   font-size: 2.5rem;
   cursor: pointer;
-  color: #fff;
+  color: var(--Color-Letters-light);
 }
 
 .header .icons:hover {
@@ -132,9 +143,10 @@ section {
 .header .logo {
   position: absolute;
   top: 3rem;
-  left: 48.5%;
+  left: 47.5%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+          
 }
 
 .header .logo img {
@@ -208,7 +220,7 @@ section {
   font-size: 1.7rem;
   font-weight: 600;
   line-height: 2;
-  color: #aaa;
+  color: #000;
   padding: 2rem 0;
 }
 
@@ -254,7 +266,7 @@ section {
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 2;
-  color: #aaa;
+  color: var(--Negro);
 }
 
 .menu .box-container {
@@ -346,6 +358,7 @@ section {
 }
 
 .about .image {
+
   -webkit-box-flex: 1;
       -ms-flex: 1 1 40rem;
           flex: 1 1 40rem;
@@ -353,6 +366,9 @@ section {
 
 .about .image img {
   width: 100%;
+  background-color: rgba(0,0, 0,.8);
+  border-radius: 50%;
+  border: 4px solid var(--Color-Letters-light);
 }
 
 .about .content {
@@ -429,14 +445,14 @@ section {
 .reviews .box-container .box h3 {
   font-size: 2rem;
   text-transform: uppercase;
-  color: #fff;
+  color: var(--Color-Letters-light);
 }
 
 .reviews .box-container .box p {
   font-size: 1.4rem;
   font-weight: 1000;
   line-height: 2;
-  color: #aaa;
+  color: var(--Negro);
   padding: 1rem 0;
 }
 
@@ -503,13 +519,13 @@ section {
   padding: 1rem 0;
   font-size: 2rem;
   text-transform: uppercase;
-  color: #fff;
+  color: var(--Color-Letters-light);
 }
 
 .contact .row .form .icons-container .icons p {
   font-size: 1.5rem;
   line-height: 2;
-  color: #aaa;
+  color: var(--Negro);
 }
 
 .contact .row .form form {
@@ -519,7 +535,7 @@ section {
 .contact .row .form form .box {
   padding: 1.2rem 1.4rem;
   font-size: 1.6rem;
-  color: #fff;
+  color: var(--Negro);
   background: none;
   border: 0.2rem solid rgba(255, 255, 255, 0.3);
   text-transform: none;
@@ -587,7 +603,7 @@ section {
 
 .blogs .box-container .box .image .icons a {
   font-size: 1.5rem;
-  color: #fff;
+  color: var(--Negro);
 }
 
 .blogs .box-container .box .image .icons a i {
@@ -614,13 +630,13 @@ section {
 .blogs .box-container .box .content h3 {
   font-size: 2rem;
   text-transform: uppercase;
-  color: #fff;
+  color: var(--Color-Letters-light);
 }
 
 .blogs .box-container .box .content p {
   font-size: 1.5rem;
   line-height: 2;
-  color: #aaa;
+  color: var(--Negro);
   padding: 1.5rem 0;
 }
 
